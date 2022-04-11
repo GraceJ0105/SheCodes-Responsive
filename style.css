@@ -90,3 +90,19 @@ h3 {
 .margin-top {
   margin-top: 100px;
 }
+
+@media (max-width: 576px) {
+  .small-margin {
+    margin-top: 40px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h1 {
+    font-size: 45px;
+  }
+
+  .primary-link {
+    font-size: 15px;
+  }
+}
